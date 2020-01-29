@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>ADS-B Message Generator</name>
+  <key>xml_decoder_packaging</key>
+  <category>ADS-B blocks</category>
+  <import>import xml_decoder</import>
+  <make>xml_decoder.packaging()</make>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>data_out</name>
+    <type>byte</type>
+  </source>
+
+</block>

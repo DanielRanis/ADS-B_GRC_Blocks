@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/xml_decoder_swig_swig_2d0df.cpp
+

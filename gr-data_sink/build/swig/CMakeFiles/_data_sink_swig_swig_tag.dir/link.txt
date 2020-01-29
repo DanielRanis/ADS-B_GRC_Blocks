@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++   -O3 -DNDEBUG   CMakeFiles/_data_sink_swig_swig_tag.dir/_data_sink_swig_swig_tag.cpp.o  -o _data_sink_swig_swig_tag -rdynamic -lusb-1.0 

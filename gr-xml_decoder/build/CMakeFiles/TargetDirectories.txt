@@ -1,0 +1,12 @@
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/_xml_decoder_swig_doc_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/lib/CMakeFiles/test-xml_decoder.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/lib/CMakeFiles/gnuradio-xml_decoder.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/CMakeFiles/uninstall.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/_xml_decoder_swig_swig_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/xml_decoder_swig_swig_2d0df.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/_xml_decoder_swig.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/pygen_swig_6c149.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/swig/CMakeFiles/xml_decoder_swig_swig_doc.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/build/python/CMakeFiles/pygen_python_d2f6e.dir

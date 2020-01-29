@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1squitter__mux" kind="namespace" language="C++">
+    <compoundname>gr::squitter_mux</compoundname>
+    <innerclass refid="classgr_1_1squitter__mux_1_1squitter__output" prot="public">gr::squitter_mux::squitter_output</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

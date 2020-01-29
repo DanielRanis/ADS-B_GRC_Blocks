@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1squitter__mux_1_1squitter__output__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::squitter_mux::squitter_output_impl</compoundname>
+    <basecompoundref refid="classgr_1_1squitter__mux_1_1squitter__output" prot="public" virt="non-virtual">gr::squitter_mux::squitter_output</basecompoundref>
+    <includes refid="squitter__output__impl_8h" local="no">squitter_output_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1afecb4e7be33106292dd1781d5a75d3de" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::squitter_mux::squitter_output_impl::alpha</definition>
+        <argsstring></argsstring>
+        <name>alpha</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="66" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a2bc5b1d2d4d58469557d148e6d2004df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::pw</definition>
+        <argsstring></argsstring>
+        <name>pw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="67" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1aac1294a7482e42ca2295dd685db0ea17" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::sr</definition>
+        <argsstring></argsstring>
+        <name>sr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="68" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a99fec2225a70546635e96bdb24dbcf6a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::imx</definition>
+        <argsstring></argsstring>
+        <name>imx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="69" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a7983e550cf1697ec19a065c9c6a97c91" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::span</definition>
+        <argsstring></argsstring>
+        <name>span</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="70" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1ae3716347c812d9eec62545508f503b8b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::sps</definition>
+        <argsstring></argsstring>
+        <name>sps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="71" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1aea20fd4d05866fd504aa6dac2a9d257a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="72" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a8792c7ab208298a7f302151e78786a7b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::tmsg</definition>
+        <argsstring></argsstring>
+        <name>tmsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="73" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1ace765a707337fb6b7c00b5280c428faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::squitter_mux::squitter_output_impl::squitter_output_impl</definition>
+        <argsstring>(const float alpha_param, const int pw_param, const int sr_param, const int span_param, const int sps_param, const int imx_param, const int md, const int testmsg)</argsstring>
+        <name>squitter_output_impl</name>
+        <param>
+          <type>const float</type>
+          <declname>alpha_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>pw_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>sr_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>span_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>sps_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>imx_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>testmsg</declname>
+        </param>
+        <briefdescription>
+<para>private constructor for sync block </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="77" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" bodystart="46" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a5fd4da2dce2acb0ce212679c9f6058d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::squitter_mux::squitter_output_impl::~squitter_output_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~squitter_output_impl</name>
+        <briefdescription>
+<para>virtual destructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="85" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1ab670d8ba5e83878313f3c5a96c00809c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+<para>Work function. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>noutput_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amount of output items that should be created. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ninput_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amount of items that are currently in the input stream (not used). </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of input items. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of output items. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Amount of output items that were created. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="88" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" bodystart="85" bodyend="262"/>
+        <references refid="squitter__output__impl_8h_1a8b5839f71a3b6e7d64b2d5e9967e3dd1" compoundref="squitter__output__impl_8h" startline="22">BUF_LEN</references>
+        <references refid="squitter__output__impl_8h_1aaf41abacd58c5d4c74bcb369acb74063" compoundref="squitter__output__impl_8h" startline="25">CORRFACT</references>
+        <references refid="squitter__output__impl_8h_1afa2a9b1e7fdb6de3cd30769d4eb3510f" compoundref="squitter__output__impl_8h" startline="27">MAX_ALPHA</references>
+        <references refid="squitter__output__impl_8h_1a821e96f320beefdc8d363cf0a3fe4558" compoundref="squitter__output__impl_8h" startline="37">MAX_IMX</references>
+        <references refid="squitter__output__impl_8h_1a3494e693783af4c2df099cba9a78d047" compoundref="squitter__output__impl_8h" startline="29">MAX_PWIDTH</references>
+        <references refid="squitter__output__impl_8h_1ae77e465c61870c3a1b6c2027aa252a05" compoundref="squitter__output__impl_8h" startline="33">MAX_SPAN</references>
+        <references refid="squitter__output__impl_8h_1a6542e2b258429fc8125a6eaa50b81b2c" compoundref="squitter__output__impl_8h" startline="35">MAX_SPS</references>
+        <references refid="squitter__output__impl_8h_1a907ac7cc238b4058b2793d0cabdda9a5" compoundref="squitter__output__impl_8h" startline="31">MAX_SR</references>
+        <references refid="squitter__output__impl_8h_1ab0841a87dac2daf2979b445aa5bf4daf" compoundref="squitter__output__impl_8h" startline="43">MAX_TMSG</references>
+        <references refid="squitter__output__impl_8h_1a6ff3ddc9b46b057045f420a6a12a2ff9" compoundref="squitter__output__impl_8h" startline="28">MIN_ALPHA</references>
+        <references refid="squitter__output__impl_8h_1a79cfb6935f5480fc85ee2edc77833acb" compoundref="squitter__output__impl_8h" startline="38">MIN_IMX</references>
+        <references refid="squitter__output__impl_8h_1a01688ed83fafab00e0c7b6d4664db101" compoundref="squitter__output__impl_8h" startline="30">MIN_PWIDTH</references>
+        <references refid="squitter__output__impl_8h_1a35ba6f04d35ee95645f8e554390bc42d" compoundref="squitter__output__impl_8h" startline="34">MIN_SPAN</references>
+        <references refid="squitter__output__impl_8h_1a32e4449ee9f33ad69eb699148a46ece2" compoundref="squitter__output__impl_8h" startline="36">MIN_SPS</references>
+        <references refid="squitter__output__impl_8h_1a51a9428e374bb48bcaff05a53496e972" compoundref="squitter__output__impl_8h" startline="32">MIN_SR</references>
+        <references refid="squitter__output__impl_8h_1aabd882ee126bd5ce9f9086505bfc1e7f" compoundref="squitter__output__impl_8h" startline="44">MIN_TMSG</references>
+        <references refid="squitter__output__impl_8h_1a2f546797310dd6eaf764b964b1f0beec" compoundref="squitter__output__impl_8h" startline="21">PRE_LEN</references>
+        <references refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a382139210b1ab38ac1ddd03aee137898" compoundref="squitter__output__impl_8cc" startline="264" endline="301">preamble_coding</references>
+        <references refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a27c3561644170dc33b765bfbcee6f0ea" compoundref="squitter__output__impl_8cc" startline="303" endline="378">time_coding</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a382139210b1ab38ac1ddd03aee137898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::preamble_coding</definition>
+        <argsstring>(char *pbuf, xml_node&lt;&gt; *r_node, int preamble_size)</argsstring>
+        <name>preamble_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>pbuf</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>preamble_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="93" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" bodystart="264" bodyend="301"/>
+        <references refid="squitter__output__impl_8h_1a8fbfb10da162f3a64e52cd211d449f45" compoundref="squitter__output__impl_8h" startline="41">MAX_PRE</references>
+        <references refid="squitter__output__impl_8h_1adca8d2442711df6a0954594ba4269a47" compoundref="squitter__output__impl_8h" startline="42">MIN_PRE</references>
+        <references refid="squitter__output__impl_8h_1a2f546797310dd6eaf764b964b1f0beec" compoundref="squitter__output__impl_8h" startline="21">PRE_LEN</references>
+        <referencedby refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ab670d8ba5e83878313f3c5a96c00809c" compoundref="squitter__output__impl_8cc" startline="85" endline="262">general_work</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output__impl_1a27c3561644170dc33b765bfbcee6f0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::squitter_mux::squitter_output_impl::time_coding</definition>
+        <argsstring>(char *buf, xml_node&lt;&gt; *r_node, int buf_size, const char *node)</argsstring>
+        <name>time_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buf_size</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="97" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" bodystart="303" bodyend="378"/>
+        <references refid="squitter__output__impl_8h_1a8b5839f71a3b6e7d64b2d5e9967e3dd1" compoundref="squitter__output__impl_8h" startline="22">BUF_LEN</references>
+        <references refid="squitter__output__impl_8h_1a5320d4457a472d8888ec1905bc0e0a1c" compoundref="squitter__output__impl_8h" startline="39">MAX_TIME</references>
+        <references refid="squitter__output__impl_8h_1a2cb9809f30ffec513e731194339f2ca4" compoundref="squitter__output__impl_8h" startline="40">MIN_TIME</references>
+        <referencedby refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ab670d8ba5e83878313f3c5a96c00809c" compoundref="squitter__output__impl_8cc" startline="85" endline="262">general_work</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class of the <ref refid="classgr_1_1squitter__mux_1_1squitter__output" kindref="compound">squitter_output</ref> block. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="12">
+        <label>gr::squitter_mux::squitter_output</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::block</label>
+      </node>
+      <node id="11">
+        <label>gr::squitter_mux::squitter_output_impl</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="15">
+        <label>gr::squitter_mux::squitter_output</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::block</label>
+      </node>
+      <node id="14">
+        <label>gr::squitter_mux::squitter_output_impl</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" line="64" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.h" bodystart="63" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1afecb4e7be33106292dd1781d5a75d3de" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>alpha</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ab670d8ba5e83878313f3c5a96c00809c" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a99fec2225a70546635e96bdb24dbcf6a" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>imx</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output_1ac8813968ea6d4fe28da966795a35ff82" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1aea20fd4d05866fd504aa6dac2a9d257a" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>mode</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a382139210b1ab38ac1ddd03aee137898" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>preamble_coding</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a2bc5b1d2d4d58469557d148e6d2004df" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>pw</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a7983e550cf1697ec19a065c9c6a97c91" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>span</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ae3716347c812d9eec62545508f503b8b" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>sps</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output_1a7e647839440fb0f2d457d3708b8253fe" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ace765a707337fb6b7c00b5280c428faa" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>squitter_output_impl</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1aac1294a7482e42ca2295dd685db0ea17" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>sr</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a27c3561644170dc33b765bfbcee6f0ea" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>time_coding</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a8792c7ab208298a7f302151e78786a7b" prot="private" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>tmsg</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a5fd4da2dce2acb0ce212679c9f6058d6" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output_impl</scope><name>~squitter_output_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

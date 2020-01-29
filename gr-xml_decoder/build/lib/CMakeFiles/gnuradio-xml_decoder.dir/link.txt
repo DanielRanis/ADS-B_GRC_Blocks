@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgnuradio-xml_decoder.so -o libgnuradio-xml_decoder.so CMakeFiles/gnuradio-xml_decoder.dir/packaging_impl.cc.o -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/qa_squitter_mux.cc
+qa_squitter_mux.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/qa_squitter_mux.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/qa_squitter_mux.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/test_squitter_mux.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_squitter_mux.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/qa_squitter_mux.h
+iostream
+-
+fstream
+-
+

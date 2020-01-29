@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/qa_coding.cc
+qa_coding.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/qa_coding.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/qa_coding.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/test_coding.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_coding.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/qa_coding.h
+iostream
+-
+fstream
+-
+

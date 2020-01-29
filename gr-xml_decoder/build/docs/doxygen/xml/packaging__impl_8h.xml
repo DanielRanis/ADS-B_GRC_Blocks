@@ -1,0 +1,880 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="packaging__impl_8h" kind="file" language="C++">
+    <compoundname>packaging_impl.h</compoundname>
+    <includes refid="packaging_8h" local="no">xml_decoder/packaging.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">bitset</includes>
+    <includes local="no">sstream</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">wchar.h</includes>
+    <includes local="yes">../include/rapidxml-1.13/rapidxml.hpp</includes>
+    <includes local="no">cstdlib</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">new</includes>
+    <includes local="no">exception</includes>
+    <includes local="yes">../include/rapidxml-1.13/rapidxml_print.hpp</includes>
+    <includes local="yes">/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/include/rapidxml-1.13/rapidxml.hpp</includes>
+    <includes local="no">ostream</includes>
+    <includes local="no">iterator</includes>
+    <incdepgraph>
+      <node id="78">
+        <label>/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/include/rapidxml-1.13/rapidxml.hpp</label>
+      </node>
+      <node id="80">
+        <label>iterator</label>
+      </node>
+      <node id="70">
+        <label>stdlib.h</label>
+      </node>
+      <node id="77">
+        <label>../include/rapidxml-1.13/rapidxml_print.hpp</label>
+      </node>
+      <node id="74">
+        <label>cassert</label>
+      </node>
+      <node id="62">
+        <label>string</label>
+      </node>
+      <node id="56">
+        <label>packaging_impl.h</label>
+        <link refid="packaging_impl.h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="76">
+        <label>exception</label>
+      </node>
+      <node id="79">
+        <label>ostream</label>
+      </node>
+      <node id="71">
+        <label>wchar.h</label>
+      </node>
+      <node id="61">
+        <label>string.h</label>
+      </node>
+      <node id="67">
+        <label>bitset</label>
+      </node>
+      <node id="72">
+        <label>../include/rapidxml-1.13/rapidxml.hpp</label>
+      </node>
+      <node id="69">
+        <label>unistd.h</label>
+      </node>
+      <node id="60">
+        <label>gnuradio/block.h</label>
+      </node>
+      <node id="58">
+        <label>xml_decoder/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="59" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>new</label>
+      </node>
+      <node id="68">
+        <label>sstream</label>
+      </node>
+      <node id="65">
+        <label>math.h</label>
+      </node>
+      <node id="73">
+        <label>cstdlib</label>
+      </node>
+      <node id="64">
+        <label>iostream</label>
+      </node>
+      <node id="66">
+        <label>algorithm</label>
+      </node>
+      <node id="63">
+        <label>stdio.h</label>
+      </node>
+      <node id="57">
+        <label>xml_decoder/packaging.h</label>
+        <link refid="packaging_8h"/>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1xml__decoder_1_1packaging__impl" prot="public">gr::xml_decoder::packaging_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1xml__decoder">gr::xml_decoder</innernamespace>
+    <innernamespace refid="namespacerapidxml">rapidxml</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="packaging__impl_8h_1a37b955502911e6352ce791efcd943dcf" prot="public" static="no">
+        <name>H_LEN</name>
+        <initializer>32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="40" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a1f15293623649a310a7c68ff240f9647" prot="public" static="no">
+        <name>MSG_LEN</name>
+        <initializer>56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="41" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a7d356b7d5a77c1e2fb7e8154f65ebfcf" prot="public" static="no">
+        <name>FRAME_LEN</name>
+        <initializer>528</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="42" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a6f42d8802e7779380beb1aae9f0e36fa" prot="public" static="no">
+        <name>MAX_CS_LEN</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="43" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a749e08aff66cb09b91679253b152d1df" prot="public" static="no">
+        <name>MIN_CS_LEN</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="44" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ab95b631652a057df5fde08feadc887ef" prot="public" static="no">
+        <name>TR_ELEMENTS</name>
+        <initializer>58</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="46" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a525335710b53cb064ca56b936120431e" prot="public" static="no">
+        <name>_USE_MATH_DEFINES</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="47" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a96eee84366f486f662c28359ec79a827" prot="public" static="no">
+        <name>MAX_AC_ADDR</name>
+        <initializer>16777215</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="50" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a5cb5014c13e237c9b472236117355c72" prot="public" static="no">
+        <name>MIN_AC_ADDR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="51" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a009ef9711a9d453fa202d848c83e1d01" prot="public" static="no">
+        <name>MAX_CA</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="52" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a02fa890b85008c435af3ad74e9439601" prot="public" static="no">
+        <name>MIN_CA</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="53" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a67b46a1b116100bf1cd4c7d061f718d8" prot="public" static="no">
+        <name>MAX_DF</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="54" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a634caa066c3bfba3414550c8b3c5d1c6" prot="public" static="no">
+        <name>MIN_DF</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="55" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a62107bce0be0cfa89c4de72a1859825c" prot="public" static="no">
+        <name>MAX_AF</name>
+        <initializer>22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="56" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a5a2e426ce61a16b87c30cc1c0a58898d" prot="public" static="no">
+        <name>MIN_AF</name>
+        <initializer>9</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="57" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a73fe2d0e0f50416c8f558ca990fe1703" prot="public" static="no">
+        <name>MAX_IDF</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="58" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ad2298e1d77169df85d31dcfa5937cdc1" prot="public" static="no">
+        <name>MIN_IDF</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="59" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a308e6ec149c3c5b792420a2bc28884ea" prot="public" static="no">
+        <name>MAX_CAT</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="60" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a562a7f7528f0c0a79799449d0f272ef2" prot="public" static="no">
+        <name>MIN_CAT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="61" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a3593bdf6140ddfa0548e305aa9d81f0d" prot="public" static="no">
+        <name>MAX_VF</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="62" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1af324310a34c4e3d59b3fd3473f1167c1" prot="public" static="no">
+        <name>MIN_VF</name>
+        <initializer>19</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="63" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ac21a9b219ff9865db0db07ef099a936f" prot="public" static="no">
+        <name>MAX_GF</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="64" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ac75a44cf15c79937fab35ace99dc98c9" prot="public" static="no">
+        <name>MIN_GF</name>
+        <initializer>5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="65" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a1df7d470d965904adde0e67fed4480e4" prot="public" static="no">
+        <name>MAX_MV</name>
+        <initializer>127</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="66" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ab9652057b3f4c0c6bb317445583426ef" prot="public" static="no">
+        <name>MIN_MV</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="67" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a3c680574db6c1dfd8e1cc7a0feac7ae0" prot="public" static="no">
+        <name>MAX_ST</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="68" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a115461ebc1c127779e62279802c2f924" prot="public" static="no">
+        <name>MIN_ST</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="69" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a2000cd4951968cc02f632c54eb27e362" prot="public" static="no">
+        <name>MAX_V</name>
+        <initializer>1023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="70" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a4984fd061a61ac75f177729a16e7d734" prot="public" static="no">
+        <name>MIN_V</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="71" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ad09f604aeb3417520cc9d3371f40cdc0" prot="public" static="no">
+        <name>MAX_VUNC</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="72" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a48b05995761e34962dce8c44d5f3729b" prot="public" static="no">
+        <name>MIN_VUNC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="73" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a4e60ccd49d37fa10de053f2559aaa71c" prot="public" static="no">
+        <name>MAX_VS</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="74" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a231479ef4630114365ed8d228de3d862" prot="public" static="no">
+        <name>MIN_VS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="75" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a166b7df12c4ee941a274a5b8c137af30" prot="public" static="no">
+        <name>MAX_VER</name>
+        <initializer>32640.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="76" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1abb70f21783d5299311c2cf545d49d35b" prot="public" static="no">
+        <name>MIN_VER</name>
+        <initializer>0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="77" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a0856acde8d13092696480ff10f54206d" prot="public" static="no">
+        <name>MAX_STY</name>
+        <initializer>4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="78" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1abd5653902bf5517c37e0e1f33675f38f" prot="public" static="no">
+        <name>MIN_STY</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="79" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a6a125d99ebf3fd87c08ed5703aa61ed9" prot="public" static="no">
+        <name>MAX_ICF</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="80" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a996d88e29c49fdfb292766378e3285d6" prot="public" static="no">
+        <name>MIN_ICF</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="81" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a2387ad688c49c846da0fb12e3695f4e9" prot="public" static="no">
+        <name>MAX_IFR</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="82" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a69b63559d220ee27a6184a816290bb6e" prot="public" static="no">
+        <name>MIN_IFR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="83" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a753fe76be791a5a6b34d1165a71b5f79" prot="public" static="no">
+        <name>MAX_IAS</name>
+        <initializer>1023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="84" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a6d4924e85caf0fd4254fd029a56cda8b" prot="public" static="no">
+        <name>MIN_IAS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="85" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a0649a6284769a1ba20ae79f388dfece6" prot="public" static="no">
+        <name>MAX_TU</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="86" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1afb52c802894f5462fbc063944aa294b5" prot="public" static="no">
+        <name>MIN_TU</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="87" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a4f3fd33d1e0605d7f39a3b31eca805b7" prot="public" static="no">
+        <name>MAX_HD</name>
+        <initializer>127</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="88" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a701599df1a4389acd0925328dbf153c6" prot="public" static="no">
+        <name>MIN_HD</name>
+        <initializer>-127</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="89" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1aef9ea96ed475a57f5c1b4097c18f0019" prot="public" static="no">
+        <name>MAX_TAS</name>
+        <initializer>1023</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="90" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a447e3bc7bbbd11d27f05ce73dda33e97" prot="public" static="no">
+        <name>MIN_TAS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="91" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ac42c55fdac90760b35c6760704ce5488" prot="public" static="no">
+        <name>MAX_GT</name>
+        <initializer>360.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="92" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a89af5e4d974dd761a531c210a3cbe0c1" prot="public" static="no">
+        <name>MIN_GT</name>
+        <initializer>0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="93" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a556a1452c85d74c908fe071754ce4a71" prot="public" static="no">
+        <name>MAX_DIR</name>
+        <initializer>360.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="94" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ab6db7d2721dd6d3527a4e308faf25e90" prot="public" static="no">
+        <name>MIN_DIR</name>
+        <initializer>0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="95" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1aab9c6bda63724681edbe802ecbab5a86" prot="public" static="no">
+        <name>MAX_SRV_ST</name>
+        <initializer>3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="96" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a91a72dcf605a2e15bb6b8f36a7479ef3" prot="public" static="no">
+        <name>MIN_SRV_ST</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="97" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ae7005fb1f2adb325b19a8c8e0b86902e" prot="public" static="no">
+        <name>MAX_ANT</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="98" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1aa22b2cdd68238d51b6ea9b63b9a0c8e9" prot="public" static="no">
+        <name>MIN_ANT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="99" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a93c97efc6e6ebd64ef14fefb0bbd9226" prot="public" static="no">
+        <name>MAX_ALT</name>
+        <initializer>408500</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="100" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1ac4af596782111ed976bcf01f1f1027d3" prot="public" static="no">
+        <name>MIN_ALT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="101" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a2a7cca34ae0a5f40c7336cf9359c7e7b" prot="public" static="no">
+        <name>MAX_T_UTC</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="102" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a0c4b93975c97413f347f72363452843f" prot="public" static="no">
+        <name>MIN_T_UTC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="103" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a7ce12d8a28541150544bc0dfeb789e13" prot="public" static="no">
+        <name>MAX_LAT</name>
+        <initializer>90.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="104" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1afb7fd15722eccf2cd90338aac9f88318" prot="public" static="no">
+        <name>MIN_LAT</name>
+        <initializer>-90.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="105" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a358c78b75d5814dfa0a6f64113344e3f" prot="public" static="no">
+        <name>MAX_LON</name>
+        <initializer>180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="106" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="packaging__impl_8h_1a4ca049c4214c92678b8916d12e048f77" prot="public" static="no">
+        <name>MIN_LON</name>
+        <initializer>-180.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="107" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h"/>
+  </compounddef>
+</doxygen>

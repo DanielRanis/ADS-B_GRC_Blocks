@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacerapidxml" kind="namespace" language="C++">
+    <compoundname>rapidxml</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/lib/squitter_output_impl.cc" line="15" column="1"/>
+  </compounddef>
+</doxygen>

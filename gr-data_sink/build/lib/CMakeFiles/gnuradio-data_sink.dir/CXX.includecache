@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/data_sink/USB_sink.h
+data_sink/api.h
+-
+gnuradio/sync_block.h
+-
+
+../include/data_sink/api.h
+gnuradio/attributes.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/config.h
+gnuradio/io_signature.h
+-
+USB_sink_impl.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h
+data_sink/USB_sink.h
+-
+libusb-1.0/libusb.h
+-
+unistd.h
+-
+stdio.h
+-
+

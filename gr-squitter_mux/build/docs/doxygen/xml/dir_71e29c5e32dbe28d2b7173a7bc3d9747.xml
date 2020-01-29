@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_71e29c5e32dbe28d2b7173a7bc3d9747" kind="dir">
+    <compoundname>squitter_mux</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="squitter__output_8h">squitter_output.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/"/>
+  </compounddef>
+</doxygen>

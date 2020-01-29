@@ -1,0 +1,14 @@
+/** @mainpage
+
+Welcome to the GNU Radio SQUITTER_OUTPUT Block.
+
+This is the intro page for the Doxygen manual generated for the SQUITTER_OUTPUT block.
+
+The SQUITTER_OUTPUT block has two input streams. Over the first input stream the coded squitter from the prevoius blocks comes in. The whole data (XML file) comes with the second input stream.
+The block uses a XML parser (rapidXML)to sort out the squitter nodes and their timing information from the second input stream. The timing information are then converted into a binary as well as
+a ASCII representation.
+In the last step the coded timing values and the squitter from the first input stream are combined to one frame. The output stream transmits this frame to the next block.
+
+@author Ranisavljevic Daniel
+
+*/

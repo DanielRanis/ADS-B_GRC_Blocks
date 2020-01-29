@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1data__sink_1_1USB__sink__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::data_sink::USB_sink_impl</compoundname>
+    <basecompoundref refid="classgr_1_1data__sink_1_1USB__sink" prot="public" virt="non-virtual">gr::data_sink::USB_sink</basecompoundref>
+    <includes refid="USB__sink__impl_8h" local="no">USB_sink_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1a2abe8275e3bbfe5fce65e5a130afaf62" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::pID</definition>
+        <argsstring></argsstring>
+        <name>pID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="32" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1a425457faa59c776537e00cec764027e2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::vID</definition>
+        <argsstring></argsstring>
+        <name>vID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="33" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1ab6b80b42f181b3c9c89ddfb761b33840" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::data_sink::USB_sink_impl::beta</definition>
+        <argsstring></argsstring>
+        <name>beta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="34" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1ac2350bf17e104df1da381fd8706d7017" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::data_sink::USB_sink_impl::testUSB</definition>
+        <argsstring></argsstring>
+        <name>testUSB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="35" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1a185b49b8a9301f90de19bcf7dafdf286" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="36" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1data__sink_1_1USB__sink__impl_1ab2991036abd217c04bbbfb786de2e355" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::testmsg</definition>
+        <argsstring></argsstring>
+        <name>testmsg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="37" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1ab27c505b449d3d423676700cb405e07c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_sink::USB_sink_impl::USB_sink_impl</definition>
+        <argsstring>(const int vendorID, const int productID, bool test)</argsstring>
+        <name>USB_sink_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>vendorID</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>productID</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+<para>private constructor for sync block </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="41" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1a5509e0666c1cd5e320c24cca102151db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::data_sink::USB_sink_impl::~USB_sink_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~USB_sink_impl</name>
+        <briefdescription>
+<para>virtual destructor </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="42" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1ac2d8ad9d50eb1d9f650943acd164e9ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::test_usb_port</definition>
+        <argsstring>(void)</argsstring>
+        <name>test_usb_port</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+<para>Function that displays information of the connected USB ports. (based on the libusb example: <ulink url="http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/">http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/</ulink>) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>none</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer value (1 if error occured, 0 if successfull) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="44" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="288" bodyend="319"/>
+        <references refid="classgr_1_1data__sink_1_1USB__sink__impl_1ad8e9c6a7881383973e1382384c7f7be0" compoundref="USB__sink__impl_8cc" startline="328" endline="363">printdev</references>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" compoundref="USB__sink__impl_8cc" startline="64" endline="136">work</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1a55e9d325de0f6f56aa3b725a1717eba3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::usb_data_transfer</definition>
+        <argsstring>(unsigned char *wdata, unsigned char *rdata, int package_length)</argsstring>
+        <name>usb_data_transfer</name>
+        <param>
+          <type>unsigned char *</type>
+          <declname>wdata</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>rdata</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>package_length</declname>
+        </param>
+        <briefdescription>
+<para>Function that transmits data over the specified USB port. (based on the libusb example: <ulink url="http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/">http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/</ulink>) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data to transmit </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>package_length</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>data length </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>integer value (1 if error occured, 0 if successfull) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="46" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="146" bodyend="279"/>
+        <references refid="USB__sink__impl_8h_1ae619ba4b4591f25c044b26b06ddd54df" compoundref="USB__sink__impl_8h" startline="19">PCKLEN</references>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" compoundref="USB__sink__impl_8cc" startline="64" endline="136">work</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1ad8e9c6a7881383973e1382384c7f7be0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::printdev</definition>
+        <argsstring>(libusb_device *dev)</argsstring>
+        <name>printdev</name>
+        <param>
+          <type>libusb_device *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+<para>Function that prints out information of a specific USB port. (based on the libusb example: <ulink url="http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/">http://www.dreamincode.net/forums/topic/148707-introduction-to-using-libusb-10/</ulink>) </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Pointer to a device list (device from a list). </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>nothing </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="48" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="328" bodyend="363"/>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1ac2d8ad9d50eb1d9f650943acd164e9ff" compoundref="USB__sink__impl_8cc" startline="288" endline="319">test_usb_port</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::data_sink::USB_sink_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+<para>Work function. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>noutput_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Amount of output items that should be created. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>input_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of input items. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Address of output items. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Amount of output items that were created. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="50" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="64" bodyend="136"/>
+        <references refid="classgr_1_1data__sink_1_1USB__sink__impl_1a2bdda741c45aaadd8ec32dbea1309c20" compoundref="USB__sink__impl_8cc" startline="365" endline="382">conv_to_ascii</references>
+        <references refid="USB__sink__impl_8h_1ae6648cd71a8bd49d58ae8ed33ba910d1" compoundref="USB__sink__impl_8h" startline="18">MAXLEN</references>
+        <references refid="classgr_1_1data__sink_1_1USB__sink__impl_1ac2d8ad9d50eb1d9f650943acd164e9ff" compoundref="USB__sink__impl_8cc" startline="288" endline="319">test_usb_port</references>
+        <references refid="classgr_1_1data__sink_1_1USB__sink__impl_1a55e9d325de0f6f56aa3b725a1717eba3" compoundref="USB__sink__impl_8cc" startline="146" endline="279">usb_data_transfer</references>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink__impl_1a2bdda741c45aaadd8ec32dbea1309c20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * gr::data_sink::USB_sink_impl::conv_to_ascii</definition>
+        <argsstring>(const char *binstr, int blen)</argsstring>
+        <name>conv_to_ascii</name>
+        <param>
+          <type>const char *</type>
+          <declname>binstr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>blen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="54" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="365" bodyend="382"/>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" compoundref="USB__sink__impl_8cc" startline="64" endline="136">work</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class of the <ref refid="classgr_1_1data__sink_1_1USB__sink" kindref="compound">USB_sink</ref> block. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="13">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="12">
+        <label>gr::data_sink::USB_sink</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>gr::data_sink::USB_sink_impl</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="15">
+        <label>gr::data_sink::USB_sink</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>gr::data_sink::USB_sink_impl</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="30" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="29" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ab6b80b42f181b3c9c89ddfb761b33840" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>beta</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a2bdda741c45aaadd8ec32dbea1309c20" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>conv_to_ascii</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink_1a1478c935ba5d6577a799da0e10cdaab9" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a185b49b8a9301f90de19bcf7dafdf286" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>mode</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a2abe8275e3bbfe5fce65e5a130afaf62" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>pID</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ad8e9c6a7881383973e1382384c7f7be0" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>printdev</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink_1a0874f71bd082c0dc7eb6907bc2e890ec" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ac2d8ad9d50eb1d9f650943acd164e9ff" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>test_usb_port</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ab2991036abd217c04bbbfb786de2e355" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>testmsg</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ac2350bf17e104df1da381fd8706d7017" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>testUSB</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a55e9d325de0f6f56aa3b725a1717eba3" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>usb_data_transfer</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1ab27c505b449d3d423676700cb405e07c" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>USB_sink_impl</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a425457faa59c776537e00cec764027e2" prot="private" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>vID</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink__impl_1a5509e0666c1cd5e320c24cca102151db" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink_impl</scope><name>~USB_sink_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

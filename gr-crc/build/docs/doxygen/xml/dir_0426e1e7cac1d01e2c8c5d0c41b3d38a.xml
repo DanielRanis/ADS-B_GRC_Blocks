@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_0426e1e7cac1d01e2c8c5d0c41b3d38a" kind="dir">
+    <compoundname>crc</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="CRC24_8h">CRC24.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc/"/>
+  </compounddef>
+</doxygen>

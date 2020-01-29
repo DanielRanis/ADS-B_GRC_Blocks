@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<block>
+  <name>squitter_mux</name>
+  <key>squitter_select_squitter_mux</key>
+  <category>squitter_select</category>
+  <import>import squitter_select</import>
+  <make>squitter_select.squitter_mux($lengthname)</make>
+
+  <param>
+    <name>Length tag name</name>
+    <key>lengthname</key>
+    <value>"packet_len"</value>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>stream_in</name>
+    <type>byte</type>
+  </sink>
+
+   <sink>
+     <name>set_time</name>
+     <type>message</type>
+     <optional>1</optional>
+   </sink>
+ <!-- <sink>
+    <name>select_in</name>
+    <type>message</type>
+    <optional>1</optional>
+  </sink>  -->
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

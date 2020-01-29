@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1squitter__select_1_1squitter__mux__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::squitter_select::squitter_mux_impl</compoundname>
+    <basecompoundref refid="classgr_1_1squitter__select_1_1squitter__mux" prot="public" virt="non-virtual">gr::squitter_select::squitter_mux</basecompoundref>
+    <includes refid="squitter__mux__impl_8h" local="no">squitter_mux_impl.h</includes>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1squitter__select_1_1squitter__mux__impl_1a68044c9738e049bf45daf21148c203ec" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::squitter_select::squitter_mux_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" line="36" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1squitter__select_1_1squitter__mux__impl_1aaf4cd57c754c4ef7ee1688e441b0c839" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::squitter_select::squitter_mux_impl::squitter_mux_impl</definition>
+        <argsstring>(const std::string lengthname)</argsstring>
+        <name>squitter_mux_impl</name>
+        <param>
+          <type>const std::string</type>
+          <declname>lengthname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__select_1_1squitter__mux__impl_1a289f2dcdcfcb2fdcb7553fec1a1ec757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::squitter_select::squitter_mux_impl::~squitter_mux_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~squitter_mux_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1squitter__select_1_1squitter__mux__impl_1aa3f637f5f4ccc5eb32c9d8738f50a529" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::squitter_select::squitter_mux_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>gr::squitter_select::squitter_mux_impl</label>
+        <link refid="classgr_1_1squitter__select_1_1squitter__mux__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="12">
+        <label>gr::squitter_select::squitter_mux</label>
+        <link refid="classgr_1_1squitter__select_1_1squitter__mux"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>gr::squitter_select::squitter_mux_impl</label>
+        <link refid="classgr_1_1squitter__select_1_1squitter__mux__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::tagged_stream_block</label>
+      </node>
+      <node id="15">
+        <label>gr::squitter_select::squitter_mux</label>
+        <link refid="classgr_1_1squitter__select_1_1squitter__mux"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" line="31" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/lib/squitter_mux_impl.h" bodystart="30" bodyend="47"/>
+    <listofallmembers>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1a68044c9738e049bf45daf21148c203ec" prot="protected" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux_1a729a3a167f5bb471eefce7a75efa0509" prot="public" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux_1a1fe702828c2f84aa1bdd7d6960e4db63" prot="public" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1aaf4cd57c754c4ef7ee1688e441b0c839" prot="public" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>squitter_mux_impl</name></member>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1aa3f637f5f4ccc5eb32c9d8738f50a529" prot="public" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1a289f2dcdcfcb2fdcb7553fec1a1ec757" prot="public" virt="non-virtual"><scope>gr::squitter_select::squitter_mux_impl</scope><name>~squitter_mux_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

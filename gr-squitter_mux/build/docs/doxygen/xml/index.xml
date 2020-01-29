@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1squitter__mux_1_1squitter__output" kind="class"><name>gr::squitter_mux::squitter_output</name>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output_1a7e647839440fb0f2d457d3708b8253fe" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output_1ac8813968ea6d4fe28da966795a35ff82" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1squitter__mux_1_1squitter__output__impl" kind="class"><name>gr::squitter_mux::squitter_output_impl</name>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1afecb4e7be33106292dd1781d5a75d3de" kind="variable"><name>alpha</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a2bc5b1d2d4d58469557d148e6d2004df" kind="variable"><name>pw</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1aac1294a7482e42ca2295dd685db0ea17" kind="variable"><name>sr</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a99fec2225a70546635e96bdb24dbcf6a" kind="variable"><name>imx</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a7983e550cf1697ec19a065c9c6a97c91" kind="variable"><name>span</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ae3716347c812d9eec62545508f503b8b" kind="variable"><name>sps</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1aea20fd4d05866fd504aa6dac2a9d257a" kind="variable"><name>mode</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a8792c7ab208298a7f302151e78786a7b" kind="variable"><name>tmsg</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ace765a707337fb6b7c00b5280c428faa" kind="function"><name>squitter_output_impl</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a5fd4da2dce2acb0ce212679c9f6058d6" kind="function"><name>~squitter_output_impl</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1ab670d8ba5e83878313f3c5a96c00809c" kind="function"><name>general_work</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a382139210b1ab38ac1ddd03aee137898" kind="function"><name>preamble_coding</name></member>
+    <member refid="classgr_1_1squitter__mux_1_1squitter__output__impl_1a27c3561644170dc33b765bfbcee6f0ea" kind="function"><name>time_coding</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1squitter__mux" kind="namespace"><name>gr::squitter_mux</name>
+  </compound>
+  <compound refid="namespacerapidxml" kind="namespace"><name>rapidxml</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a5a6eefffaf54f2a1fac71857dbeb5657" kind="define"><name>SQUITTER_MUX_API</name></member>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="squitter__output_8h" kind="file"><name>squitter_output.h</name>
+  </compound>
+  <compound refid="squitter__output__impl_8cc" kind="file"><name>squitter_output_impl.cc</name>
+  </compound>
+  <compound refid="squitter__output__impl_8h" kind="file"><name>squitter_output_impl.h</name>
+    <member refid="squitter__output__impl_8h_1a2f546797310dd6eaf764b964b1f0beec" kind="define"><name>PRE_LEN</name></member>
+    <member refid="squitter__output__impl_8h_1a8b5839f71a3b6e7d64b2d5e9967e3dd1" kind="define"><name>BUF_LEN</name></member>
+    <member refid="squitter__output__impl_8h_1a0592dba56693fad79136250c11e5a7fe" kind="define"><name>MAX_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1aaf41abacd58c5d4c74bcb369acb74063" kind="define"><name>CORRFACT</name></member>
+    <member refid="squitter__output__impl_8h_1afa2a9b1e7fdb6de3cd30769d4eb3510f" kind="define"><name>MAX_ALPHA</name></member>
+    <member refid="squitter__output__impl_8h_1a6ff3ddc9b46b057045f420a6a12a2ff9" kind="define"><name>MIN_ALPHA</name></member>
+    <member refid="squitter__output__impl_8h_1a3494e693783af4c2df099cba9a78d047" kind="define"><name>MAX_PWIDTH</name></member>
+    <member refid="squitter__output__impl_8h_1a01688ed83fafab00e0c7b6d4664db101" kind="define"><name>MIN_PWIDTH</name></member>
+    <member refid="squitter__output__impl_8h_1a907ac7cc238b4058b2793d0cabdda9a5" kind="define"><name>MAX_SR</name></member>
+    <member refid="squitter__output__impl_8h_1a51a9428e374bb48bcaff05a53496e972" kind="define"><name>MIN_SR</name></member>
+    <member refid="squitter__output__impl_8h_1ae77e465c61870c3a1b6c2027aa252a05" kind="define"><name>MAX_SPAN</name></member>
+    <member refid="squitter__output__impl_8h_1a35ba6f04d35ee95645f8e554390bc42d" kind="define"><name>MIN_SPAN</name></member>
+    <member refid="squitter__output__impl_8h_1a6542e2b258429fc8125a6eaa50b81b2c" kind="define"><name>MAX_SPS</name></member>
+    <member refid="squitter__output__impl_8h_1a32e4449ee9f33ad69eb699148a46ece2" kind="define"><name>MIN_SPS</name></member>
+    <member refid="squitter__output__impl_8h_1a821e96f320beefdc8d363cf0a3fe4558" kind="define"><name>MAX_IMX</name></member>
+    <member refid="squitter__output__impl_8h_1a79cfb6935f5480fc85ee2edc77833acb" kind="define"><name>MIN_IMX</name></member>
+    <member refid="squitter__output__impl_8h_1a5320d4457a472d8888ec1905bc0e0a1c" kind="define"><name>MAX_TIME</name></member>
+    <member refid="squitter__output__impl_8h_1a2cb9809f30ffec513e731194339f2ca4" kind="define"><name>MIN_TIME</name></member>
+    <member refid="squitter__output__impl_8h_1a8fbfb10da162f3a64e52cd211d449f45" kind="define"><name>MAX_PRE</name></member>
+    <member refid="squitter__output__impl_8h_1adca8d2442711df6a0954594ba4269a47" kind="define"><name>MIN_PRE</name></member>
+    <member refid="squitter__output__impl_8h_1ab0841a87dac2daf2979b445aa5bf4daf" kind="define"><name>MAX_TMSG</name></member>
+    <member refid="squitter__output__impl_8h_1aabd882ee126bd5ce9f9086505bfc1e7f" kind="define"><name>MIN_TMSG</name></member>
+    <member refid="squitter__output__impl_8h_1ab01f7809e99a952150248f3955103222" kind="define"><name>ALPHA_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1ae38b6cc27955f944c7c7042c42e90576" kind="define"><name>PWIDTH_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1ac6dab8a35a2170f03e47a5b7bfd6a769" kind="define"><name>SR_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1a63f35788ddd029be7e43ca6c1516a92d" kind="define"><name>SPAN_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1abc58dc6550332100b5f8f1cdc43b83f0" kind="define"><name>SPS_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1a7df84c4e90b8b832d85c315801c8b576" kind="define"><name>IMX_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1ab96ef17cfddc037885f1f9585972bd36" kind="define"><name>TINFO_SIZE</name></member>
+    <member refid="squitter__output__impl_8h_1a646700f27c6a383d06cf4d34dbad8990" kind="define"><name>TMSG_SIZE</name></member>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_71e29c5e32dbe28d2b7173a7bc3d9747" kind="dir"><name>squitter_mux</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>USB_SINK Block</title>
+    <detaileddescription>
+<para>Welcome to the GNU Radio USB_SINK Block.</para><para>This is the intro page for the Doxygen manual generated for the USB_SINK block.</para><para>In GNU Radio a SINK-Block serves as an interface. This is necessary in order to interact with different processes or peripherials, like USB. Therefore the USB_SINK-Block streams the input data (string) directly to a USB port.</para><para><simplesect kind="author"><para>Ranisavljevic Daniel </para></simplesect>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

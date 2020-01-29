@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/qa_xml_decoder.cc
+qa_xml_decoder.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/qa_xml_decoder.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/qa_xml_decoder.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/test_xml_decoder.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_xml_decoder.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/qa_xml_decoder.h
+iostream
+-
+fstream
+-
+

@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1xml__decoder_1_1packaging__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::xml_decoder::packaging_impl</compoundname>
+    <basecompoundref refid="classgr_1_1xml__decoder_1_1packaging" prot="public" virt="non-virtual">gr::xml_decoder::packaging</basecompoundref>
+    <includes refid="packaging__impl_8h" local="no">packaging_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1xml__decoder_1_1packaging__impl_1aa087be80debd1f11081f0578adc76ad3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::sqttrmode</definition>
+        <argsstring></argsstring>
+        <name>sqttrmode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="116" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a1c3829c6d4a707c6d773bcb2a7195f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::xml_decoder::packaging_impl::packaging_impl</definition>
+        <argsstring>()</argsstring>
+        <name>packaging_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="119" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1aebd6f3c0f55cdafdbf9098175264ae34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::xml_decoder::packaging_impl::~packaging_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~packaging_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a7fe9a1d4377ae9914c0637108515c392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="122" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1adceea78d18258cad38a57bc643ad1ea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::xml_decoder::packaging_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="127" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a0f7735b2cf16b0d876fbe864227709a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::tag_content</definition>
+        <argsstring>(const char *tag, char *buf, float *fval, int *ival, char *sign)</argsstring>
+        <name>tag_content</name>
+        <param>
+          <type>const char *</type>
+          <declname>tag</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>buf</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>fval</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>ival</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>sign</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="130" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a1a8c7d9ece147ff9b59f7d873cc604b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::ppm</definition>
+        <argsstring>(char *deststr, const char *binstr, int len, int destsize)</argsstring>
+        <name>ppm</name>
+        <param>
+          <type>char *</type>
+          <declname>deststr</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>binstr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>destsize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a71509f10bd19e94d476f734c0e5db4b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int gr::xml_decoder::packaging_impl::cpr_lat</definition>
+        <argsstring>(float lat, int oe, float *rlat)</argsstring>
+        <name>cpr_lat</name>
+        <param>
+          <type>float</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oe</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>rlat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="134" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a12047ca1128e86d0a9f7c3f93ebe5aac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>long int</type>
+        <definition>long int gr::xml_decoder::packaging_impl::cpr_lon</definition>
+        <argsstring>(float lon, int oe, float *tr, float rlat)</argsstring>
+        <name>cpr_lon</name>
+        <param>
+          <type>float</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>oe</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rlat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a6fcf7d43cae71f0c54572deab7f2bcff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::callsign_value</definition>
+        <argsstring>(char str)</argsstring>
+        <name>callsign_value</name>
+        <param>
+          <type>char</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="137" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a9407d805d2138b59b0592cad2daa0f89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::header_coding</definition>
+        <argsstring>(char *hbuf, xml_node&lt;&gt; *r_node, int header_size)</argsstring>
+        <name>header_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>hbuf</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>header_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="139" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a7a61adf3c81cf4e7c260a8444aa8323a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::apos_coding</definition>
+        <argsstring>(char *aposbuf_even, char *aposbuf_odd, xml_node&lt;&gt; *r_node, float *tr, int apos_even_size, int apos_odd_size)</argsstring>
+        <name>apos_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>aposbuf_even</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>aposbuf_odd</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>apos_even_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>apos_odd_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="140" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a9e759d85a2a4934d7296b43da102bac9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::gpos_coding</definition>
+        <argsstring>(char *gposbuf_even, char *gposbuf_odd, xml_node&lt;&gt; *r_node, float *tr, int gpos_even_size, int gpos_odd_size)</argsstring>
+        <name>gpos_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>gposbuf_even</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>gposbuf_odd</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gpos_even_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>gpos_odd_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1ae5d813a51079c67657b1a43110161e03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::avel_coding</definition>
+        <argsstring>(char *avelbuf, xml_node&lt;&gt; *r_node, int avel_size)</argsstring>
+        <name>avel_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>avelbuf</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>avel_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="142" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a6c1012286f6af977713ec7cd6e89cd65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::aid_coding</definition>
+        <argsstring>(char *aidbuf, xml_node&lt;&gt; *r_node, int aid_size)</argsstring>
+        <name>aid_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>aidbuf</declname>
+        </param>
+        <param>
+          <type>xml_node&lt;&gt; *</type>
+          <declname>r_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>aid_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="143" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1a6508035b19514de154b15c72e5aec70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::apos_coding</definition>
+        <argsstring>(char *apos_even, char *apos_odd)</argsstring>
+        <name>apos_coding</name>
+        <param>
+          <type>char *</type>
+          <declname>apos_even</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>apos_odd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="145" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1ab40f21e5f283f5b3ec4ef742c5f9e3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::xml_decoder::packaging_impl::NL</definition>
+        <argsstring>(float lat, float *tr)</argsstring>
+        <name>NL</name>
+        <param>
+          <type>float</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>tr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="146" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1af68fe613e76e26f253a2e78c96731c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float gr::xml_decoder::packaging_impl::mod</definition>
+        <argsstring>(float x, float y)</argsstring>
+        <name>mod</name>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1xml__decoder_1_1packaging__impl_1addcc295d5bd6effc9601b632cedd1bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::xml_decoder::packaging_impl::transition</definition>
+        <argsstring>(float *tr)</argsstring>
+        <name>transition</name>
+        <param>
+          <type>float *</type>
+          <declname>tr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="148" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="11">
+        <label>gr::xml_decoder::packaging_impl</label>
+        <link refid="classgr_1_1xml__decoder_1_1packaging__impl"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>gr::xml_decoder::packaging</label>
+        <link refid="classgr_1_1xml__decoder_1_1packaging"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="14">
+        <label>gr::xml_decoder::packaging_impl</label>
+        <link refid="classgr_1_1xml__decoder_1_1packaging__impl"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>gr::xml_decoder::packaging</label>
+        <link refid="classgr_1_1xml__decoder_1_1packaging"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" line="114" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/lib/packaging_impl.h" bodystart="113" bodyend="149"/>
+    <listofallmembers>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a6c1012286f6af977713ec7cd6e89cd65" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>aid_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a7a61adf3c81cf4e7c260a8444aa8323a" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>apos_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a6508035b19514de154b15c72e5aec70f" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>apos_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1ae5d813a51079c67657b1a43110161e03" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>avel_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a6fcf7d43cae71f0c54572deab7f2bcff" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>callsign_value</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a71509f10bd19e94d476f734c0e5db4b3" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>cpr_lat</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a12047ca1128e86d0a9f7c3f93ebe5aac" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>cpr_lon</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1adceea78d18258cad38a57bc643ad1ea9" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a7fe9a1d4377ae9914c0637108515c392" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a9e759d85a2a4934d7296b43da102bac9" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>gpos_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a9407d805d2138b59b0592cad2daa0f89" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>header_coding</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging_1acecace7a1b0e70f590eb3fa8084b3f4b" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1af68fe613e76e26f253a2e78c96731c7b" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>mod</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1ab40f21e5f283f5b3ec4ef742c5f9e3e1" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>NL</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a1c3829c6d4a707c6d773bcb2a7195f05" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>packaging_impl</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a1a8c7d9ece147ff9b59f7d873cc604b4" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>ppm</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging_1a88fc1241c70a80107acdbad56002a2ce" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1aa087be80debd1f11081f0578adc76ad3" prot="private" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>sqttrmode</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1a0f7735b2cf16b0d876fbe864227709a2" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>tag_content</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1addcc295d5bd6effc9601b632cedd1bdb" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>transition</name></member>
+      <member refid="classgr_1_1xml__decoder_1_1packaging__impl_1aebd6f3c0f55cdafdbf9098175264ae34" prot="public" virt="non-virtual"><scope>gr::xml_decoder::packaging_impl</scope><name>~packaging_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

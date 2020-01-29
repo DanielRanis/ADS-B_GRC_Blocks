@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1crc" kind="namespace" language="C++">
+    <compoundname>gr::crc</compoundname>
+    <innerclass refid="classgr_1_1crc_1_1CRC24" prot="public">gr::crc::CRC24</innerclass>
+    <innerclass refid="classgr_1_1crc_1_1CRC24__impl" prot="public">gr::crc::CRC24_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc/CRC24.h" line="28" column="1"/>
+  </compounddef>
+</doxygen>

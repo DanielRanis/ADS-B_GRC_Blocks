@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="CRC24_8h" local="no">CRC24.h</includedby>
+    <incdepgraph>
+      <node id="23">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="22">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="26">
+        <label>CRC24_impl.h</label>
+        <link refid="CRC24__impl_8h"/>
+      </node>
+      <node id="25">
+        <label>CRC24.h</label>
+        <link refid="CRC24_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a9c6b88232f29a170a4f941604e66acd5" prot="public" static="no">
+        <name>CRC_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc/api.h" line="30" column="12" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc/api.h"/>
+  </compounddef>
+</doxygen>

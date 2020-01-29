@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>PPM Coding</name>
+  <key>coding_PPM_coding</key>
+  <category>ADS-B blocks</category>
+  <import>import coding</import>
+  <make>coding.PPM_coding()</make>
+
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

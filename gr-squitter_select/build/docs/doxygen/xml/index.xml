@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1squitter__select_1_1squitter__mux" kind="class"><name>gr::squitter_select::squitter_mux</name>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux_1a1fe702828c2f84aa1bdd7d6960e4db63" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux_1a729a3a167f5bb471eefce7a75efa0509" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1squitter__select_1_1squitter__mux__impl" kind="class"><name>gr::squitter_select::squitter_mux_impl</name>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1a68044c9738e049bf45daf21148c203ec" kind="function"><name>calculate_output_stream_length</name></member>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1aaf4cd57c754c4ef7ee1688e441b0c839" kind="function"><name>squitter_mux_impl</name></member>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1a289f2dcdcfcb2fdcb7553fec1a1ec757" kind="function"><name>~squitter_mux_impl</name></member>
+    <member refid="classgr_1_1squitter__select_1_1squitter__mux__impl_1aa3f637f5f4ccc5eb32c9d8738f50a529" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1squitter__select" kind="namespace"><name>gr::squitter_select</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a89fc40b58dc18bbfef2e55a82e390fbe" kind="define"><name>SQUITTER_SELECT_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="squitter__mux_8h" kind="file"><name>squitter_mux.h</name>
+  </compound>
+  <compound refid="squitter__mux__impl_8h" kind="file"><name>squitter_mux_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_e3290cf3ffe4b62ba567aa4fb8b453e2" kind="dir"><name>squitter_select</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="api_8h" kind="file" language="C++">
+    <compoundname>api.h</compoundname>
+    <includes local="no">gnuradio/attributes.h</includes>
+    <includedby refid="USB__sink_8h" local="no">USB_sink.h</includedby>
+    <incdepgraph>
+      <node id="37">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="36">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="37" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="39">
+        <label>USB_sink.h</label>
+        <link refid="USB__sink_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>USB_sink_impl.h</label>
+        <link refid="USB__sink__impl_8h"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>api.h</label>
+        <link refid="api.h"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>USB_sink_impl.cc</label>
+        <link refid="USB__sink__impl_8cc"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="api_8h_1a19a6bbec46f81265b27eb2624fe2a27b" prot="public" static="no">
+        <name>DATA_SINK_API</name>
+        <initializer>__GR_ATTR_IMPORT</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/api.h" line="30" column="12" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/api.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/api.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<block>
+  <name>Mode Control</name>
+  <key>control_modecontrol</key>
+  <category>ADS-B blocks</category>
+  <import>import control</import>
+  <make>control.modecontrol($mod,$testmsg)</make>
+  <param>
+          <name>Mode</name>
+          <key>mod</key>
+          <type>int</type>
+          <option>
+                   <name>Test-Message</name>
+                   <key>1</key>
+          </option>
+          <option>
+                   <name>Stop Peripherie</name>
+                   <key>0</key>
+          </option>
+  </param>
+  <param>
+          <name>Test-Message</name>
+          <key>testmsg</key>
+          <type>int</type>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

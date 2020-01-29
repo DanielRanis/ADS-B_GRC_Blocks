@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/qa_data_sink.cc
+qa_data_sink.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/qa_data_sink.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/qa_data_sink.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+libusb-1.0/libusb.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/test_data_sink.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_data_sink.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/qa_data_sink.h
+iostream
+-
+fstream
+-
+

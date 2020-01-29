@@ -1,0 +1,11 @@
+This is the squitter_select-write-a-block package meant as a guide to building
+out-of-tree packages. To use the squitter_select blocks, the Python namespaces
+is in 'squitter_select', which is imported as:
+
+    import squitter_select
+
+See the Doxygen documentation for details about the blocks available
+in this package. A quick listing of the details can be found in Python
+after importing by using:
+
+    help(squitter_select)

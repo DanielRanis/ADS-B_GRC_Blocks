@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/coding/PPM_coding.h
+coding/api.h
+-
+gnuradio/block.h
+-
+
+../include/coding/api.h
+gnuradio/attributes.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/PPM_coding_impl.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/config.h
+gnuradio/io_signature.h
+-
+PPM_coding_impl.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/PPM_coding_impl.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-coding/lib/PPM_coding_impl.h
+coding/PPM_coding.h
+-
+string.h
+-
+

@@ -1,0 +1,12 @@
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/lib/CMakeFiles/test-crc.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/_crc_swig_doc_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/lib/CMakeFiles/gnuradio-crc.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/CMakeFiles/uninstall.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/pygen_swig_eacf2.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/crc_swig_swig_2d0df.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/_crc_swig_swig_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/_crc_swig.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/swig/CMakeFiles/crc_swig_swig_doc.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/build/python/CMakeFiles/pygen_python_0f31c.dir

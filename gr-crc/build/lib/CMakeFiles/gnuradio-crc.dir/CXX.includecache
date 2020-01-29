@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/crc/CRC24.h
+crc/api.h
+-
+gnuradio/block.h
+-
+
+../include/crc/api.h
+gnuradio/attributes.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/CRC24_impl.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/config.h
+gnuradio/io_signature.h
+-
+CRC24_impl.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/CRC24_impl.h
+string
+-
+iostream
+-
+sstream
+-
+stdio.h
+-
+string.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/CRC24_impl.h
+crc/CRC24.h
+-
+stdio.h
+-
+

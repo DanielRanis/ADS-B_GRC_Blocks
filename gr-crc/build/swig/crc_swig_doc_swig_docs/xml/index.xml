@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1crc_1_1CRC24" kind="class"><name>gr::crc::CRC24</name>
+    <member refid="classgr_1_1crc_1_1CRC24_1a3635bad0424e87ca4808bfb28b207df9" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1crc_1_1CRC24_1afdcc12f40071f341c26f92f0bf8ea93d" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1crc" kind="namespace"><name>gr::crc</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a9c6b88232f29a170a4f941604e66acd5" kind="define"><name>CRC_API</name></member>
+  </compound>
+  <compound refid="CRC24_8h" kind="file"><name>CRC24.h</name>
+  </compound>
+  <compound refid="dir_0426e1e7cac1d01e2c8c5d0c41b3d38a" kind="dir"><name>/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include/crc</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/Daniel/Schreibtisch/GRC_modules/gr-crc/include</name>
+  </compound>
+</doxygenindex>

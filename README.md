@@ -1,2 +1,7 @@
-# ADS-B_GRC_Blocks
-This project consists of a set of GRC blocks to build an Automatic Depedent Surveillance - Broadcast (ADS-B) Transmitter
+# ADS-B GRC Blocks
+This project includes a set of GRC blocks to generate Automatic Depedent Surveillance - Broadcast (ADS-B) frame data.
+
+## Description
+coming soon ...
+## Usage
+coming soon ...

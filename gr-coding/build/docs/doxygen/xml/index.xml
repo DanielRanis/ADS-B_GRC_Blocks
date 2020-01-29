@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1coding_1_1PPM__coding" kind="class"><name>gr::coding::PPM_coding</name>
+    <member refid="classgr_1_1coding_1_1PPM__coding_1a21cbc41bc4de25091660010cd48ed1e6" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1coding_1_1PPM__coding_1a5c941ffe6bade367093b366f37feec61" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1coding_1_1PPM__coding__impl" kind="class"><name>gr::coding::PPM_coding_impl</name>
+    <member refid="classgr_1_1coding_1_1PPM__coding__impl_1acd5727f96101317690f8677d27028d73" kind="function"><name>PPM_coding_impl</name></member>
+    <member refid="classgr_1_1coding_1_1PPM__coding__impl_1a70dbe717cb634af14080789c64057c77" kind="function"><name>~PPM_coding_impl</name></member>
+    <member refid="classgr_1_1coding_1_1PPM__coding__impl_1a4f31f31bfb0c54cabec8a3fb29305562" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1coding" kind="namespace"><name>gr::coding</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ad6d135d80526d8b8f88162cd95950d25" kind="define"><name>CODING_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="PPM__coding_8h" kind="file"><name>PPM_coding.h</name>
+  </compound>
+  <compound refid="PPM__coding__impl_8h" kind="file"><name>PPM_coding_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_1379a9fc41200a7ad06e51217d8be1d0" kind="dir"><name>coding</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

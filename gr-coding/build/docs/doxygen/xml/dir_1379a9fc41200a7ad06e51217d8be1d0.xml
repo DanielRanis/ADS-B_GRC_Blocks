@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_1379a9fc41200a7ad06e51217d8be1d0" kind="dir">
+    <compoundname>coding</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="PPM__coding_8h">PPM_coding.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-coding/include/coding/"/>
+  </compounddef>
+</doxygen>

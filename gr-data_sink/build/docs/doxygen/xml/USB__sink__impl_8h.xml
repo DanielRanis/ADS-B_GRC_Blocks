@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="USB__sink__impl_8h" kind="file" language="C++">
+    <compoundname>USB_sink_impl.h</compoundname>
+    <includes refid="USB__sink_8h" local="no">data_sink/USB_sink.h</includes>
+    <includes local="no">libusb-1.0/libusb.h</includes>
+    <includes local="no">unistd.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includedby refid="USB__sink__impl_8cc" local="yes">USB_sink_impl.cc</includedby>
+    <incdepgraph>
+      <node id="67">
+        <label>libusb-1.0/libusb.h</label>
+      </node>
+      <node id="63">
+        <label>data_sink/USB_sink.h</label>
+        <link refid="USB__sink_8h"/>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="65">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="62">
+        <label>USB_sink_impl.h</label>
+        <link refid="USB_sink_impl.h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>unistd.h</label>
+      </node>
+      <node id="64">
+        <label>data_sink/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="70">
+        <label>USB_sink_impl.h</label>
+        <link refid="USB_sink_impl.h"/>
+        <childnode refid="71" relation="include">
+        </childnode>
+      </node>
+      <node id="71">
+        <label>USB_sink_impl.cc</label>
+        <link refid="USB__sink__impl_8cc"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1data__sink_1_1USB__sink__impl" prot="public">gr::data_sink::USB_sink_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1data__sink">gr::data_sink</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="USB__sink__impl_8h_1ae6648cd71a8bd49d58ae8ed33ba910d1" prot="public" static="no">
+        <name>MAXLEN</name>
+        <initializer>512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="18" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1aeeebf78d6ff6b6d80a8c8a90d1b5367d" compoundref="USB__sink__impl_8cc" startline="64" endline="136">gr::data_sink::USB_sink_impl::work</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="USB__sink__impl_8h_1ae619ba4b4591f25c044b26b06ddd54df" prot="public" static="no">
+        <name>PCKLEN</name>
+        <initializer>64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" line="19" column="9" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="classgr_1_1data__sink_1_1USB__sink__impl_1a55e9d325de0f6f56aa3b725a1717eba3" compoundref="USB__sink__impl_8cc" startline="146" endline="279">gr::data_sink::USB_sink_impl::usb_data_transfer</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This file holds the class declaration of this block. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Ranisavljevic Daniel </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.h"/>
+  </compounddef>
+</doxygen>

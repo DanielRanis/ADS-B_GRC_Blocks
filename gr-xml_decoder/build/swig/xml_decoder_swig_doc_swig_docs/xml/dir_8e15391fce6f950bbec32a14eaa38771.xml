@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_8e15391fce6f950bbec32a14eaa38771" kind="dir">
+    <compoundname>/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/include/xml_decoder</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="packaging_8h">packaging.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-xml_decoder/include/xml_decoder/"/>
+  </compounddef>
+</doxygen>

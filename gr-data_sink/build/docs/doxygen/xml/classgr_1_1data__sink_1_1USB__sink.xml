@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1data__sink_1_1USB__sink" kind="class" language="C++" prot="public">
+    <compoundname>gr::data_sink::USB_sink</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1data__sink_1_1USB__sink__impl" prot="public" virt="non-virtual">gr::data_sink::USB_sink_impl</derivedcompoundref>
+    <includes refid="USB__sink_8h" local="no">USB_sink.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1data__sink_1_1USB__sink_1a0874f71bd082c0dc7eb6907bc2e890ec" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1data__sink_1_1USB__sink" kindref="compound">USB_sink</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;USB_sink&gt; gr::data_sink::USB_sink::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/USB_sink.h" line="37" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/USB_sink.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1data__sink_1_1USB__sink_1a1478c935ba5d6577a799da0e10cdaab9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1data__sink_1_1USB__sink_1a0874f71bd082c0dc7eb6907bc2e890ec" kindref="member">sptr</ref></type>
+        <definition>USB_sink::sptr gr::data_sink::USB_sink::make</definition>
+        <argsstring>(const int vendorID, const int productID, bool test)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const int</type>
+          <declname>vendorID</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>productID</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1data__sink_1_1USB__sink" kindref="compound">data_sink::USB_sink</ref>. <ref refid="classgr_1_1data__sink_1_1USB__sink_1a1478c935ba5d6577a799da0e10cdaab9" kindref="member">data_sink::USB_sink::make</ref> is the public interface for creating new instances. </para>        </briefdescription>
+        <detaileddescription>
+<para>shared_ptr</para><para><ref refid="classgr_1_1data__sink_1_1USB__sink_1a1478c935ba5d6577a799da0e10cdaab9" kindref="member">data_sink::USB_sink::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/USB_sink.h" line="43" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc" bodystart="27" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Reference class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="6">
+        <label>gr::data_sink::USB_sink</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::data_sink::USB_sink_impl</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="10">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="9">
+        <label>gr::data_sink::USB_sink</label>
+        <link refid="classgr_1_1data__sink_1_1USB__sink"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/USB_sink.h" line="35" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/include/data_sink/USB_sink.h" bodystart="34" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classgr_1_1data__sink_1_1USB__sink_1a1478c935ba5d6577a799da0e10cdaab9" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink</scope><name>make</name></member>
+      <member refid="classgr_1_1data__sink_1_1USB__sink_1a0874f71bd082c0dc7eb6907bc2e890ec" prot="public" virt="non-virtual"><scope>gr::data_sink::USB_sink</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

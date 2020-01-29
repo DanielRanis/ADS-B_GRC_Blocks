@@ -1,0 +1,12 @@
+/** @mainpage
+
+Welcome to the GNU Radio USB_SINK Block.
+
+This is the intro page for the Doxygen manual generated for the USB_SINK block.
+
+In GNU Radio a SINK-Block serves as an interface. This is necessary in order to interact with different processes or peripherials, like USB.
+Therefore the USB_SINK-Block streams the input data (string) directly to a USB port.
+
+@author Ranisavljevic Daniel
+
+*/

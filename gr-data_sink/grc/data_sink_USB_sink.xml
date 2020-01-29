@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<block>
+  <name>TIVA (TM4C1294XL) Sink</name>
+  <key>data_sink_USB_sink</key>
+  <category>ADS-B blocks</category>
+  <import>import data_sink</import>
+  <make>data_sink.USB_sink($vendorID, $productID, $test)</make>
+  <param>
+          <name>Vendor ID</name>
+          <key>vendorID</key>
+          <value>0x1CBE</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>Product ID</name>
+          <key>productID</key>
+          <value>0x3</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>Mode</name>
+          <key>test</key>
+          <type>enum</type>
+          <option>
+                   <name>Write to USB port</name>
+                   <key>False</key>
+          </option>
+          <option>
+                   <name>Test USB port</name>
+                   <key>True</key>
+          </option>
+  </param>
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+</block>

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/control/api.h
+gnuradio/attributes.h
+-
+
+../include/control/modecontrol.h
+control/api.h
+-
+gnuradio/block.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-control/lib/modecontrol_impl.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-control/lib/config.h
+gnuradio/io_signature.h
+-
+modecontrol_impl.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-control/lib/modecontrol_impl.h
+string.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-control/lib/modecontrol_impl.h
+control/modecontrol.h
+-
+

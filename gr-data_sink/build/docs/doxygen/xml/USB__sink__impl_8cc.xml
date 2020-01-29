@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="USB__sink__impl_8cc" kind="file" language="C++">
+    <compoundname>USB_sink_impl.cc</compoundname>
+    <includes local="no">gnuradio/io_signature.h</includes>
+    <includes refid="USB__sink__impl_8h" local="yes">USB_sink_impl.h</includes>
+    <incdepgraph>
+      <node id="58">
+        <label>libusb-1.0/libusb.h</label>
+      </node>
+      <node id="54">
+        <label>data_sink/USB_sink.h</label>
+        <link refid="USB__sink_8h"/>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="57" relation="include">
+        </childnode>
+      </node>
+      <node id="57">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="56">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="53">
+        <label>USB_sink_impl.h</label>
+        <link refid="USB__sink__impl_8h"/>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>unistd.h</label>
+      </node>
+      <node id="52">
+        <label>gnuradio/io_signature.h</label>
+      </node>
+      <node id="55">
+        <label>data_sink/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>USB_sink_impl.cc</label>
+        <link refid="USB_sink_impl.cc"/>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1data__sink">gr::data_sink</innernamespace>
+    <briefdescription>
+<para>This file holds the whole data processing of this block. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Ranisavljevic Daniel </para></simplesect>
+</para>    </detaileddescription>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/lib/USB_sink_impl.cc"/>
+  </compounddef>
+</doxygen>

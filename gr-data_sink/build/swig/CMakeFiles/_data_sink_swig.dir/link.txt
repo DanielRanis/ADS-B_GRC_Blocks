@@ -1,0 +1,1 @@
+/usr/lib64/ccache/c++  -fPIC -O3 -DNDEBUG  -shared  -o _data_sink_swig.so CMakeFiles/_data_sink_swig.dir/data_sink_swigPYTHON_wrap.cxx.o -lusb-1.0 -lpython2.7 ../lib/libgnuradio-data_sink.so -lusb-1.0 -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt -Wl,-rpath,/home/Daniel/Schreibtisch/GRC_modules/gr-data_sink/build/lib: 

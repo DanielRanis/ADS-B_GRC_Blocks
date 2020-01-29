@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1squitter__mux_1_1squitter__output" kind="class" language="C++" prot="public">
+    <compoundname>gr::squitter_mux::squitter_output</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="squitter__output_8h" local="no">squitter_output.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1squitter__mux_1_1squitter__output_1a7e647839440fb0f2d457d3708b8253fe" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1squitter__mux_1_1squitter__output" kindref="compound">squitter_output</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;squitter_output&gt; gr::squitter_mux::squitter_output::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" line="37" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1squitter__mux_1_1squitter__output_1aec6f28957a0f450b9b91ed68fc0500ae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1squitter__mux_1_1squitter__output_1a7e647839440fb0f2d457d3708b8253fe" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::squitter_mux::squitter_output::make</definition>
+        <argsstring>(const float alpha_param, const int pw_param, const int sr_param, const int span_param, const int sps_param, const int imx_param, const int md, const int testmsg)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const float</type>
+          <declname>alpha_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>pw_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>sr_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>span_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>sps_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>imx_param</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>md</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>testmsg</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of data_sink::USB_sink. data_sink::USB_sink::make is the public interface for creating new instances. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Reference class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>gr::squitter_mux::squitter_output</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>gr::squitter_mux::squitter_output</label>
+        <link refid="classgr_1_1squitter__mux_1_1squitter__output"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" line="35" column="1" bodyfile="/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_mux/include/squitter_mux/squitter_output.h" bodystart="34" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output_1aec6f28957a0f450b9b91ed68fc0500ae" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output</scope><name>make</name></member>
+      <member refid="classgr_1_1squitter__mux_1_1squitter__output_1a7e647839440fb0f2d457d3708b8253fe" prot="public" virt="non-virtual"><scope>gr::squitter_mux::squitter_output</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

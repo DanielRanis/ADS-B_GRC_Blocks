@@ -1,0 +1,12 @@
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/_squitter_select_swig_doc_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/CMakeFiles/uninstall.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/squitter_select_swig_swig_doc.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/_squitter_select_swig_swig_tag.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/lib/CMakeFiles/test-squitter_select.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/squitter_select_swig_swig_2d0df.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/_squitter_select_swig.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/lib/CMakeFiles/gnuradio-squitter_select.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/swig/CMakeFiles/pygen_swig_934ee.dir
+/home/Daniel/Schreibtisch/GRC_modules/gr-squitter_select/build/python/CMakeFiles/pygen_python_6c4b3.dir

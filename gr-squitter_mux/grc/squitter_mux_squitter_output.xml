@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<block>
+  <name>Control</name>
+  <key>squitter_mux_squitter_output</key>
+  <category>ADS-B blocks</category>
+  <import>import squitter_mux</import>
+  <make>squitter_mux.squitter_output($alpha_param, $pw_param, $sr_param, $span_param, $sps_param, $imx_param, $md, $testmsg)</make>
+ <param>
+          <name>Mode</name>
+          <key>md</key>
+          <value>2</value>
+          <type>int</type>
+          <option>
+                   <name>XML Mode</name>
+                   <key>2</key>
+          </option>
+          <option>
+                   <name>Test Mode</name>
+                   <key>1</key>
+          </option>
+          <option>
+                   <name>Stop Mode</name>
+                   <key>0</key>
+          </option>
+  </param>
+  <param>
+          <name>Test Message</name>
+          <key>testmsg</key>
+          <value>0</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>ALPHA</name>
+          <key>alpha_param</key>
+          <value>0.1</value>
+          <type>float</type>
+  </param>
+  <param>
+          <name>UPSAMPLE</name>
+          <key>pw_param</key>
+          <value>1</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>SAMPLERATE(in MHz)</name>
+          <key>sr_param</key>
+          <value>1</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>SPAN</name>
+          <key>span_param</key>
+          <value>1</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>SPS</name>
+          <key>sps_param</key>
+          <value>1</value>
+          <type>int</type>
+  </param>
+  <param>
+          <name>Imax</name>
+          <key>imx_param</key>
+          <value>1</value>
+          <type>int</type>
+  </param>
+  <sink>
+    <name>in_data</name>
+    <type>byte</type>
+  </sink>
+   <sink>
+     <name>in_time</name>
+     <type>byte</type>
+   </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

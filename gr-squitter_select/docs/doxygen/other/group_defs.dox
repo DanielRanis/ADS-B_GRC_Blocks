@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio SQUITTER_SELECT C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the SQUITTER_SELECT GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

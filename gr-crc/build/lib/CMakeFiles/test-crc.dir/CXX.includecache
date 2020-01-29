@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/qa_crc.cc
+qa_crc.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/qa_crc.h
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/qa_crc.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/test_crc.cc
+config.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_crc.h
+/home/Daniel/Schreibtisch/GRC_modules/gr-crc/lib/qa_crc.h
+iostream
+-
+fstream
+-
+
