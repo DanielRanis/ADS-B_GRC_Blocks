@@ -1,0 +1,57 @@
+<ADS_B_simulator>
+	<repetition>5000</repetition>
+	<aircraft>
+		<preamble>0xAA00</preamble>
+		<dataformat>17</dataformat>
+		<CA>0</CA>
+		<aircraft_address>0xFEE101</aircraft_address>
+		<ADS_message>
+			<squitter_apos>
+				<format_type>17</format_type>
+				<surveillance>0</surveillance>
+				<antenna>0</antenna>
+				<altitude>38000</altitude>
+				<time_UTC>0</time_UTC>
+				<latitude>52.25720</latitude>
+				<longitude>3.91937</longitude>
+				<time>2000</time>
+			</squitter_apos>
+			<squitter_gpos>
+				<format_type>8</format_type>
+				<movement>1</movement>
+				<status>1</status>
+				<ground_track>255.567</ground_track>
+				<time_UTC>0</time_UTC>
+				<latitude>52.25720</latitude>
+				<longitude>3.91937</longitude>
+				<time>2500</time>
+			</squitter_gpos>
+			<squitter_avel>
+				<format_type>19</format_type>
+				<subtype>1</subtype>
+				<ICF>0</ICF>
+				<IFR>0</IFR>
+				<v_uncertainity>0</v_uncertainity>
+				<ew_velocity>9</ew_velocity>
+				<ns_velocity>160</ns_velocity>
+				<tas_velocity>720</tas_velocity>
+				<direction>243.98</direction>
+				<vertical_source>0</vertical_source>
+				<down_vertical>832</down_vertical>
+				<turn>0</turn>
+				<height_diff>0</height_diff>
+				<time>3000</time>
+			</squitter_avel>
+			<squitter_aid>
+				<format_type>1</format_type>
+				<category>5</category>
+				<callsign>OE1546</callsign>
+				<time>3500</time>
+			</squitter_aid>
+		</ADS_message>
+	</aircraft>
+</ADS_B_simulator>
+
+
+
+
